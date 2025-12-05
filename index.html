@@ -1,39 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Gaming Portal</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Portal</title>
     <style>
         body {
-            background: #0d0d0d;
-            color: white;
-            font-family: Arial;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f0f0f;
+            color: #fff;
             text-align: center;
-            padding: 40px;
         }
-        .container {
-            margin-top: 50px;
+        header {
+            padding: 20px;
+            background: #1e1e1e;
+            font-size: 2rem;
+        }
+        .games {
+            margin: 40px auto;
+            max-width: 800px;
         }
         a.game-link {
-            color: #00e6e6;
-            font-size: 22px;
+            display: block;
+            background: #292929;
+            padding: 20px;
+            margin: 15px 0;
             text-decoration: none;
-            padding: 10px 20px;
-            border: 2px solid #00e6e6;
+            color: #00eaff;
+            font-size: 1.5rem;
             border-radius: 8px;
         }
         a.game-link:hover {
-            background: #00e6e6;
-            color: black;
+            background: #00eaff;
+            color: #000;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to My Gaming Portal 🎮</h1>
-    <p>Explore the exciting games built using cloud technologies.</p>
+    <header>🎮 Gaming Portal 🎮</header>
 
-    <div class="container">
-        <h2>My Cloud Game:</h2>
-        <a class="game-link" href="YOUR_GAME_LINK_HERE" target="_blank">Play Now</a>
+    <div class="games">
+        <h2>Available Games</h2>
+        <!-- Add your cloud-hosted game link here -->
+        <a class="game-link" href="YOUR-GAME-LINK-HERE" target="_blank">
+            Play My Cloud Hosted Game
+        </a>
     </div>
+
 </body>
 </html>
